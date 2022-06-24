@@ -11,6 +11,9 @@
         android:theme="@style/Theme.Cryptopro">
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loginactivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
