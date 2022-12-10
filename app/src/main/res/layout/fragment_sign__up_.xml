@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Sign_Up_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ekinvest" />
+    </androidx.cardview.widget.CardView>
+
+       <EditText
+            android:id="@+id/fullName"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:digits="abcdefghijklmnopqrstuvwxyz . ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="Full Name as per your PAN"
+            android:autofillHints="name"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_color"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/email"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:digits="abcdefghijklmnopqrstuvwxyz . ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="Enter your email address"
+            android:autofillHints="name"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_color"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/pass"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Addresss"
+            android:autofillHints="name"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_color"
+            android:textSize="16sp" />
+
+        <EditText
+        android:id="@+id/phn"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:digits="0123456789"
+        android:hint="Mobile number"
+        android:autofillHints="name"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color"
+        android:textSize="16sp" />
+        <EditText
+            android:id="@+id/mob"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="pin code"
+            android:autofillHints="name"
+            android:digits="1234567890"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_color"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/gender"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="gender"
+            android:autofillHints="name"
+            android:digits="1234567890"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/loginbutton_selector"
+            android:padding="3dp"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</FrameLayout>

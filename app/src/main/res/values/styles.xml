@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtOverpassbold60">
+        <item name="android:textSize">@dimen/_60pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtSFProDisplaymedium16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/sf_pro_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtOverpassbold16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold26">
+        <item name="android:textSize">@dimen/_26pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_radius_6</item>
+    </style>
+    <style name="txtPodkovaextrabold30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/podkova</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtOverpassbold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold22">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/deep_orange_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassextrabold40_1">
+        <item name="android:textSize">@dimen/_40pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtOverpasssemibold12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold12_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/green_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold12_3">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/red_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylebluegray_900">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_900</item>
+    </style>
+    <style name="txtOverpasssemibold12_4">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/amber_600</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOutline">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_border_bluegray_900</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="txtOverpasssemibold16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylecornerRadius_2">
+        <item name="android:background">@drawable/rectangle_radius_10</item>
+    </style>
+    <style name="groupStylegray_900_b2">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_b2</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_radius_4</item>
+    </style>
+    <style name="txtOverpassbold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassextrabold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtOverpassbold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassregular18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular15">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/bluegray_701</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_500</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpasssemibold20_1">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpassregular15_1">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpasssemibold30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStyle">
+        <item name="android:background">@drawable/rectangle_border_bluegray_900</item>
+    </style>
+    <style name="groupStyle_3">
+        <item name="android:background">@drawable/rectangle_gradient_s_teal_300_e_teal_700</item>
+    </style>
+    <style name="groupStyle_1">
+        <item name="android:background">@drawable/rectangle_border_gray_400</item>
+    </style>
+    <style name="groupStyle_2">
+        <item name="android:background">@drawable/rectangle_gradient_s_bluegray_900_e_gray_901</item>
+    </style>
+    <style name="txtOverpassregular16_3">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpasssemibold6">
+        <item name="android:textSize">@dimen/_6pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpassbold17_1">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/teal_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassbold46">
+        <item name="android:textSize">@dimen/_46pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtOverpassextrabold30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="groupStylegray_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_100_radius_tl_40_tr_40</item>
+    </style>
+    <style name="txtOverpasssemibold28">
+        <item name="android:textSize">@dimen/_28pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpassextrabold28">
+        <item name="android:textSize">@dimen/_28pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtOverpasssemibold22">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpassextrabold26">
+        <item name="android:textSize">@dimen/_26pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtOverpasssemibold8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtregular20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylegray_103cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_103_border_gray_103_radius_2</item>
+    </style>
+    <style name="txtOverpasssemibold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold16_2">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/green_A701</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold18_1">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/gray_400</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpassbold30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtregular16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_400</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylegray_300cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_300_radius_8</item>
+    </style>
+    <style name="groupStylegray_100">
+        <item name="android:background">@drawable/rectangle_bg_gray_100</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_2</item>
+    </style>
+    <style name="groupStylered_A701cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_a701_radius_2</item>
+    </style>
+    <style name="txtOverpassextrabold40">
+        <item name="android:textSize">@dimen/_40pxh</item>
+        <item name="android:textColor">@color/gray_101</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtOverpasssemibold18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold15">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpasssemibold10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtOverpassregular14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular16_2">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_101</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassregular12_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylered_A200cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_a200_radius_2</item>
+    </style>
+    <style name="txtOverpassregular12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_700</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtOverpassbold20_1">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_400</item>
+        <item name="android:fontFamily">@font/overpass</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+</resources>

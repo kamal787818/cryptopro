@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoarding">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/arrowanim1"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    app:layout_constraintVertical_bias="0.257"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/downarrow" />
+
+
+
+            //------------------1
+
+            <LinearLayout
+
+                android:id="@+id/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout"
+                    android:gravity="center"
+                    android:text="Everyone deserves a little
+extra;)"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Ekinvest is the peer to peer investment platform in India.More than 1000k investors have
+ earned steady returns since 2020"
+                    android:textColor="@color/grey"
+                    android:textSize="17dp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/text"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    app:layout_constraintVertical_bias="0.257"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/investment" />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/arrowanim"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    app:layout_constraintVertical_bias="0.257"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/downarrow" />
+
+
+            </LinearLayout>
+
+
+            //------------------2
+
+               <LinearLayout
+                android:id="@+id/arro3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/arrow"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout"
+                    android:gravity="center"
+                    android:text="Best investment Platform"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="Investpro offeredconsistent net returns of
+approximately 6% per month or 72% per annum for last two years against single-digit
+ or fluctuating returns from fixed deposit. "
+                    android:textColor="@color/grey"
+                    android:textSize="17dp" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/investanimation2"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/investanimation"
+                    app:layout_constraintVertical_bias="0.257"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/investmenttwo" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/arrowanim3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_constraintVertical_bias="0.257"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/downarrow" />
+
+
+                <!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/onboarding1"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="3dp"-->
+<!--                        android:layout_height="160dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginLeft="210dp"-->
+<!--                        android:layout_marginTop="30dp"-->
+<!--                        android:background="@color/grey">-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="42dp"-->
+<!--                        android:layout_height="18dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginLeft="190dp"-->
+<!--                        android:layout_marginTop="180dp"-->
+<!--                        android:paddingBottom="1dp"-->
+<!--                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />-->
+
+
+<!--                </RelativeLayout>-->
+
+
+            </LinearLayout>
+            //------------------3
+            <LinearLayout
+                android:id="@+id/arro4"
+                android:layout_below="@id/arro3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_below="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:text="Invest today for secured tomorrow"
+                    />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/investanimation3"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/investanimation"
+                    app:layout_constraintVertical_bias="0.257"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/investmentthree" />
+
+                <TextView
+
+                    android:layout_below="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="17dp"
+                    android:text="With the end goal to make fast bucks, individuals are putting their reserve funds in various plans, which convey great returns"
+                    />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/onboardingbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/arro4"
+                android:backgroundTint="#EF0606"
+                android:textColor="@color/white"
+                android:text="Submit">
+
+            </Button>
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

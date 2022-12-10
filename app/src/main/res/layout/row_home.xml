@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumnlocation"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageButton android:background="@color/red_50"
+            android:id="@+id/btnLocation"
+            android:layout_height="@dimen/_35pxh"
+            android:layout_width="@dimen/_35pxh"
+            android:paddingHorizontal="@dimen/_10pxh"
+            android:paddingVertical="@dimen/_10pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_location" tools:ignore="ContentDescription"/>
+        <TextView android:id="@+id/txtSendMoney"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_6pxh"
+            style="@style/txtOverpassbold20" android:text="@string/lbl_send_money"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtCard3303"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:singleLine="true"
+            style="@style/txtOverpassregular15" android:text="@string/lbl_to_acc_to_acc"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cryptopro">
+
+      <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newlogo"
+        android:label="EkInvest"
+        android:roundIcon="@drawable/newlogo"
+        android:supportsRtl="true"
+
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Cryptopro">
+        <activity
+            android:name=".Splash_screen_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentContainer"
+            android:exported="false" />
+        <activity
+            android:name=".homeActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

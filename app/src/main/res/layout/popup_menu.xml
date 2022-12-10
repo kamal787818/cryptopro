@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:layout_marginTop="40dp"
+    android:id="@+id/popup"
+    tools:context=".homeActivity">
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_marginRight="30dp"
+       android:layout_marginLeft="30dp"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:id="@+id/rrr"
+       android:background="@drawable/view_"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <androidx.appcompat.widget.AppCompatSeekBar
+          android:layout_marginTop="50dp"
+          android:id="@+id/seekBar"
+          style="@style/Widget.AppCompat.SeekBar.Discrete"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:progress="0"
+          android:contentDescription="@string/bottom_sheet_behavior"
+          android:max="4"
+          android:paddingVertical="10dp"
+          android:progressBackgroundTint="@color/progressbar"
+          android:progressTint="@color/progressbar"
+          android:thumbTint="@color/green"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:tickMarkTint="@color/progressbar" />
+
+      <LinearLayout
+          android:id="@+id/linearLayout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/view_"
+          android:orientation="horizontal"
+          app:layout_constraintBottom_toTopOf="@+id/seekBar"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:text="On Maturity"
+             android:textColor="@color/lightgreen" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="10dp"
+             android:gravity="center"
+             android:text="Monthly"
+             android:textColor="@color/seekbar_textColor"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="10dp"
+             android:gravity="center"
+             android:text="Quarterly"
+             android:textColor="@color/seekbar_textColor"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="10dp"
+             android:gravity="center"
+             android:text="Half Yearly"
+             android:textColor="@color/seekbar_textColor"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView5"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="10dp"
+             android:gravity="center"
+             android:text="Annual"
+             android:textColor="@color/seekbar_textColor"
+             android:textStyle="bold" />
+      </LinearLayout>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

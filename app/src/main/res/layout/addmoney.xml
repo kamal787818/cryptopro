@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Enter amount"
+            android:textColor="@color/dark"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_gravity="center"
+            app:neumorph_shapeType="pressed"
+            app:neumorph_backgroundColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+            <EditText
+                android:id="@+id/addmoneytext"
+                android:inputType="phone"
+                android:digits="0123456789"
+                android:drawablePadding="8dp"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:maxLength="10"
+                android:hint="Enter amount"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/no_bckgrnd"
+                android:textCursorDrawable="@drawable/cursor"/>
+
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/Addmoney_button"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Add Money">
+
+        </soup.neumorphism.NeumorphButton>
+    </LinearLayout>
+</LinearLayout>
