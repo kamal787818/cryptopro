@@ -29,7 +29,7 @@
 
 
 
-            //------------------1
+
 
             <LinearLayout
 
@@ -90,7 +90,6 @@ extra;)"
             </LinearLayout>
 
 
-            //------------------2
 
                <LinearLayout
                 android:id="@+id/arro3"
@@ -183,7 +182,7 @@ approximately 6% per month or 72% per annum for last two years against single-di
 
 
             </LinearLayout>
-            //------------------3
+
             <LinearLayout
                 android:id="@+id/arro4"
                 android:layout_below="@id/arro3"

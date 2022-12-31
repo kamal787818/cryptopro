@@ -24,9 +24,7 @@ public class FragmentContainer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
           //btn=findViewById(R.id.button);
-
        // startActivity(new Intent(FragmentContainer.this, LoginMain_Activity.class));
-
         //getSupportFragmentManager().beginTransaction().add(R.id.main,new Login()).commit();
 //          btn.setOnClickListener(new View.OnClickListener() {
 //              @Override
@@ -50,7 +48,6 @@ public class FragmentContainer extends AppCompatActivity {
                break;
         }
         Executor executor= ContextCompat.getMainExecutor(this);
-
         biometricPrompt=new BiometricPrompt(FragmentContainer.this, executor, new BiometricPrompt.AuthenticationCallback() {
             @Override
             public void onAuthenticationError(int errorCode, @NonNull CharSequence errString) {
@@ -60,6 +57,7 @@ public class FragmentContainer extends AppCompatActivity {
             @Override
             public void onAuthenticationSucceeded(@NonNull BiometricPrompt.AuthenticationResult result) {
                 super.onAuthenticationSucceeded(result);
+                Toast.makeText(FragmentContainer.this, "kamal"+result, Toast.LENGTH_SHORT).show();
                 //startActivity(new Intent(FragmentContainer.this, LoginMain_Activity.class));
                 getSupportFragmentManager().beginTransaction().add(R.id.main,new Login_Fragment()).commit();
             }

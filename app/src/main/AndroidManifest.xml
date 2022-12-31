@@ -17,14 +17,14 @@
             android:name=".Splash_screen_Activity"
             android:exported="false" />
         <activity
-            android:name=".OnBoarding"
+            android:name=".homeActivity"
             android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".FragmentContainer"
             android:exported="false" />
         <activity
-            android:name=".homeActivity"
+            android:name=".OnBoarding"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>

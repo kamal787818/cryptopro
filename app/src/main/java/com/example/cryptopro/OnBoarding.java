@@ -19,7 +19,6 @@ public class OnBoarding extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         setContentView(R.layout.activity_onboarding);
-
         btn=findViewById(R.id.onboardingbutton);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

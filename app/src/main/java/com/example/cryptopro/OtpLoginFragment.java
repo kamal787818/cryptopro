@@ -1,7 +1,6 @@
 package com.example.cryptopro;
 
 import static android.content.Context.MODE_PRIVATE;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -30,7 +29,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class OtpLoginFragment extends Fragment {
+    public class OtpLoginFragment extends Fragment {
     Button otp_btn;
    EditText ed2;
     RequestQueue queue;
@@ -61,7 +60,7 @@ public class OtpLoginFragment extends Fragment {
 
                  if (ed2.getText().toString().equals(otp)) {
                      //startActivity(new Intent(getContext(), homeActivity.class));
-
+                     startActivity(new Intent(getContext(), homeActivity.class));
                      StringRequest stringRequest2 = new StringRequest(Request.Method.GET, "http://www.anpad.in/EkInvestment_API.asmx/login?ph="+ph+"", new Response.Listener<String>() {
                          @Override
                          public void onResponse(String response) {
